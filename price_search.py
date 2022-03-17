@@ -42,5 +42,6 @@ item_to_search.pack()
 button1 = Button(root, text='Go search this', command=search)
 button1.pack()
 
+print('A tentar perceber quem faz os commits :/')
 
 root.mainloop()
