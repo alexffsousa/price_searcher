@@ -1,5 +1,7 @@
 from cProfile import label
+from json import tool
 from tkinter import *
+from turtle import back
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,6 +9,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import time
+
+def sel():
+   selection = "You selected the option " + str(var.get())
+   lbl.config(text = selection)
 
 def search():
     item = '' + item_to_search.get()
@@ -42,6 +48,25 @@ item_to_search.pack()
 button1 = Button(root, text='Go search this', command=search)
 button1.pack()
 
-print('A tentar perceber quem faz os commits :/')
+menubar = Menu(root, background='#9E9997')
+file = Menu(root, tearoff=0)
+file.add_command(label='Add new item', command=root.quit)
+file.add_separator()
+file.add_command(label='Exit program', command=root.quit)
+menubar.add_cascade(label='File', menu=file)
+#------------------------------------------------------------#
+tools = Menu(root, tearoff=0)
+tools.add_command(label='Edit item', command=root.quit)
+tools.add_command(label='Remove item')
+menubar.add_cascade(label='Tools', menu=tools)
+#------------------------------------------------------------#
+about = Menu(root, tearoff=0)
+about.add_command(label='Version')
+about.add_command(label='The project')
+about.add_command(label='The coders')
+menubar.add_cascade(label='About', menu=about)
 
+
+
+root.config(menu=menubar)
 root.mainloop()
