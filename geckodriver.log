@@ -1,0 +1,86 @@
+1647640913268	geckodriver	INFO	Listening on 127.0.0.1:57469
+1647640913773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38527" "-no-remote" "-profile" "/tmp/rust_mozprofilePTPU6N"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647640915339	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePTPU6N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38527/devtools/browser/98948f0d-b3de-4f82-8e48-48aa3e81df6b
+1647640917297	Marionette	INFO	Listening on port 36309
+1647640917403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.pcdiga.com"
+1647640963802	Marionette	INFO	Stopped listening on port 36309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647641223673	geckodriver	INFO	Listening on 127.0.0.1:49965
+1647641224186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42605" "-no-remote" "-profile" "/tmp/rust_mozprofilel21K5S"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647641225414	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel21K5S/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42605/devtools/browser/bfde3f6b-b59d-4f0a-9b31-ab1b75cdafa9
+1647641226937	Marionette	INFO	Listening on port 36551
+1647641227044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647641229185	Marionette	INFO	Stopped listening on port 36551
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1647641231254	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1647641391593	geckodriver	INFO	Listening on 127.0.0.1:43663
+1647641392107	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47819" "-no-remote" "-profile" "/tmp/rust_mozprofilelK9Zy2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647641393374	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelK9Zy2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47819/devtools/browser/19ce0f05-c373-4d2a-ace2-5ff9564c663a
+1647641395295	Marionette	INFO	Listening on port 41781
+1647641395344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.pcdiga.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.worten.pt"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.worten.pt"
+console.error: "Unable to find target with innerWindowId:2147483675"
+console.error: "Unable to find target with innerWindowId:2147483685"
+console.error: "Unable to find target with innerWindowId:2147483675"
+console.error: "Unable to find target with innerWindowId:2147483725"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1647641486951	Marionette	INFO	Stopped listening on port 41781
+1647642348736	geckodriver	INFO	Listening on 127.0.0.1:60213
+1647642349250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35953" "-no-remote" "-profile" "/tmp/rust_mozprofilersMrUR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1647642350577	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilersMrUR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35953/devtools/browser/3b606740-2ac5-4f17-9d82-8cd4cb6c4826
+1647642352451	Marionette	INFO	Listening on port 37663
+1647642352481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.pcdiga.com"
+1647642362184	Marionette	INFO	Stopped listening on port 37663
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
