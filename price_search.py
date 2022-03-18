@@ -1,7 +1,9 @@
 from cProfile import label
 from json import tool
 from tkinter import *
+from tkinter import ttk
 from turtle import back
+from click import command
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -35,6 +37,13 @@ def search():
         print(elem.text)
     except:
         print('wtf error')
+
+def open_popup():
+   top= Toplevel(root)
+   top.geometry("750x250")
+   top.title("Child Window")
+   Label(top, text= "Hello World!", font=('Mistral 18 bold')).place(x=150,y=80)
+
     
 root = Tk()
 root.title('Let me check that price for u :)')
@@ -61,7 +70,7 @@ tools.add_command(label='Remove item')
 menubar.add_cascade(label='Tools', menu=tools)
 #------------------------------------------------------------#
 about = Menu(root, tearoff=0)
-about.add_command(label='Version')
+about.add_command(label='Version', command=open_popup)
 about.add_command(label='The project')
 about.add_command(label='The coders')
 menubar.add_cascade(label='About', menu=about)
