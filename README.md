@@ -14,3 +14,11 @@ IDEIA:
  - o utilizador decide em quais sites vai pesquisar o preço do seu produto [feito atraves de radio/check buttons]
  - depois introduz numa barra de texto o produto pelo qual pretende procurar os preços
  - o script corre e aparece na app os precos, organizado pelo mais barato ate ao mais caro
+
+
+ fazer uma classe website onde tera 
+    - nome 
+    - id para barra procura
+    - id para cookies
+    - id para produto
+    - id para preço

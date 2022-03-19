@@ -13,10 +13,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import time
 
-def sel():
-   selection = "You selected the option " + str(var.get())
-   lbl.config(text = selection)
-
 def search():
     item = '' + item_to_search.get()
     lbl1 = Label(root, text=item)
@@ -45,6 +41,11 @@ def open_popup():
    top.title("Child Window")
    Label(top, text= "Hello World!", font=('Mistral 18 bold')).place(x=150,y=80)
 
+
+def websites_search():
+    x = radio_value.get()
+    if x==1:
+        print('I will search this websites')
     
 root = Tk()
 root.title('Let me check that price for u :)')
@@ -75,6 +76,15 @@ about.add_command(label='Version', command=open_popup)
 about.add_command(label='The project')
 about.add_command(label='The coders')
 menubar.add_cascade(label='About', menu=about)
+
+radio_value = IntVar()
+r1 = Radiobutton(root, text='Worten', variable=radio_value, value=1,command=websites_search)
+r1.pack()
+
+websites = ['Worten', 'Fnac', 'PCDiga', 'Radio Popular', 'Media Markt']
+
+for website in websites:
+    websites_search()
 
 root.config(menu=menubar)
 root.mainloop()
