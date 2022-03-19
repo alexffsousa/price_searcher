@@ -76,14 +76,5 @@ about.add_command(label='The project')
 about.add_command(label='The coders')
 menubar.add_cascade(label='About', menu=about)
 
-R1 = IntVar()
-R2 = Radiobutton(root, text='Worten', value=1, variable=R1)
-R2.pack()
-
-x = R1.get()
-
-if (x == 1):
-    print('Valor a 1')
-
 root.config(menu=menubar)
 root.mainloop()
